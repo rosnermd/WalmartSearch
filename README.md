@@ -10,8 +10,9 @@
 ### Download and setup of code
 
 1. Clone the repo ('git clone https://github.com/ctownbrownsfan/WalmartSearch.git')
-2. Run 'npm install'
-3. Replace '{API_KEY}' with your walmart api key in the 'src/server/config.js' file
+2. 'cd WalmartSearch/'
+3. Run 'npm install'
+4. Replace '{API_KEY}' with your walmart api key in the 'src/server/config.js' file
     * you can obtain a key [here](https://developer.walmartlabs.com/page)
 
 ## Running the application
