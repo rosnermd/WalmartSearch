@@ -1,0 +1,7 @@
+<app-product [product]="product">
+</app-product>
+<h2>Recommendations</h2>
+<div *ngIf="message !== ''">
+    {{message}}
+</div>
+<app-recommendation-list #productRecommendationList [productRecommendations]="products"></app-recommendation-list>

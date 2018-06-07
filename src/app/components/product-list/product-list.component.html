@@ -1,0 +1,9 @@
+<div class="product-list">
+  <table class="table table-condensed table-list" *ngIf="hasProducts">
+    <tbody>
+      <tr *ngFor="let product of products">
+        <app-product [listMode]="true" [product]="product"></app-product>
+      </tr>
+    </tbody>
+  </table>
+</div>

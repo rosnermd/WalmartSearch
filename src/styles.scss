@@ -1,0 +1,32 @@
+@import "~bootstrap/dist/css/bootstrap.min.css";
+@import "~font-awesome/css/font-awesome.css";
+@import '~@angular/material/theming';
+@import 'content/colors';
+@include mat-core();
+
+$walmart-app-primary: mat-palette($mat-indigo,900);
+$walmart-app-accent:  mat-palette($mat-pink, A200, A100, A400);
+$walmart-app-warn:    mat-palette($mat-red);
+
+$walmart-app-theme: mat-light-theme($walmart-app-primary, $walmart-app-accent, $walmart-app-warn);
+
+@include angular-material-theme($walmart-app-theme);
+
+body{
+  background-color: $c-gray-50;
+  font: myriad-pro,BogleWeb,Helvetica Neue,Helvetica,Arial,sans-serif;
+}
+
+// Mixin itself
+@mixin clearfix() {
+    &::after {
+      display: block;
+      content: "";
+      clear: both;
+    }
+  }
+  
+  // Usage as a mixin
+  .element {
+    @include clearfix;
+  }

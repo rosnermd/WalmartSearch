@@ -1,0 +1,15 @@
+<mat-card>
+  <img src="{{recommendation?.thumbnailImage}}" alt="{{recommendation?.name}}">
+  <div class="mat-detail">
+    <mat-card-header>
+      <mat-card-title>{{recommendation.name}}</mat-card-title>
+    </mat-card-header>
+    <span>{{recommendation?.salePrice | currency}}</span>
+    <br/>
+    <span *ngIf="recommendation?.availableOnline;else notAvailable">
+      Available Online
+    </span>
+    <ng-template #notAvailable>Not Available Online</ng-template>
+  </div>
+  <div style="clear: both;"></div>
+</mat-card>

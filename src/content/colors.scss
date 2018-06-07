@@ -1,0 +1,70 @@
+// Grays
+$c-gray-50:  #f2f2f2;
+$c-gray-100: #c6c5c5;
+$c-gray-200: #b0b1b3;
+$c-gray-300: #a7a8aa;
+$c-gray-400: #666666;
+$c-gray-700: #333333;
+
+// Blues
+$c-blue-300: #008edd;
+$c-blue-400: #007abc;
+$c-blue-500: #0079bf;
+$c-blue-600: #0061a0;
+$c-blue-700: #0060a2;
+
+// Greens
+$c-green-400: #b7dd58;
+$c-green-700: #a4ce4e;
+
+// Reds
+$c-red-100: #f5d0d0;
+$c-red-400: #eb4646;
+
+// Other
+$c-white: #ffffff;
+$c-berry: #db0a5b;
+$c-yellow: #ffc600;
+$c-teal: #00a3ac;
+$c-black: #000000;
+
+// Semantic naming
+$muted: $c-gray-300;
+$inactive-gray: $c-gray-200;
+$gray-bg: #f9f9f9;
+$off-white: #f1f1f1;
+
+// Button Colors
+$btn-primary-color: $c-white;
+$btn-primary-color-hover: $c-white;
+$btn-primary-bg: $c-green-700;
+$btn-primary-bg-hover: $c-green-400;
+
+$btn-secondary-color: $c-white;
+$btn-secondary-color-hover: $c-white;
+$btn-secondary-bg: $c-blue-400;
+$btn-secondary-bg-hover: $c-blue-600;
+
+$btn-tertiary-color: $c-blue-400;
+$btn-tertiary-color-hover: $c-white;
+$btn-tertiary-bg: $c-white;
+$btn-tertiary-bg-hover: $c-blue-400;
+$btn-tertiary-border: $c-blue-400;
+$btn-tertiary-border-hover: $c-blue-400;
+
+$btn-disabled: #cccccc;
+$btn-disabled-bg: #cccccc;
+$btn-disabled-color: rgba(0, 0, 0, .3);
+
+// Alert Colors
+$error-foreground: $c-red-400;
+$error-background: $c-red-100;
+$success-background: $c-green-700;
+
+// Input Colors
+$input-border: #bbbbbb;
+$input-disabled: #8e8e8e;
+
+// Checkbox Colors
+$checkbox-disabled: #f3f3f3;
+$checkbox-label-disabled: #c4c4c4;

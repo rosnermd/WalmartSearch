@@ -1,0 +1,9 @@
+<table class="table table-condensed table-list recommendation-table" *ngIf="hasRecommendations">
+  <tbody>
+    <tr>
+      <td *ngFor="let recommendation of productRecommendations">
+        <app-recommendation [recommendation]="recommendation"></app-recommendation>
+      </td>
+    </tr>
+  </tbody>
+</table>

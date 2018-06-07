@@ -1,0 +1,16 @@
+@import '../content/colors';
+
+.mainContent{
+    padding-left: 205px;
+    padding-right: 205px;
+}
+.viewPort{
+    padding:10px;
+    background-color: #ffffff;
+}
+@media only screen and (max-width: 960px) {
+    .mainContent{
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+}

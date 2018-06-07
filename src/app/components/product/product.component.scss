@@ -1,0 +1,30 @@
+.mat-card{
+    margin-bottom: 10px;
+    span{
+        padding:15px;
+    }
+}
+.cursor{
+    cursor: pointer;
+}
+.mat-detail{
+    float: left;
+}
+.mat-card-image:first-child{
+    margin: 0px;
+}
+.mat-card-title{
+    cursor: pointer;
+    font-size: 1.5em;
+}
+.description {
+    padding: 10px;
+    font-size: .8em;
+}
+
+
+.detail{
+    .mat-card-title{
+        cursor: default;
+    }
+}

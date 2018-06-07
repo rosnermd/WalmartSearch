@@ -1,0 +1,12 @@
+<form class="search-form">
+  <mat-form-field class="search-full-width">
+    <input #searchText id="searchText" matInput placeholder="Search" />
+  </mat-form-field>
+  <button mat-raised-button color="primary" (click)="search(searchText.value)">Search</button>
+</form>
+<div *ngIf="statusMessage !== ''">
+  {{statusMessage}}
+</div>
+<div *ngIf="statusMessage === ''">
+  <app-product-list #searchResults [products]="products"></app-product-list>
+</div>
